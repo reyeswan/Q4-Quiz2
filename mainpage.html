@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/free-photo/silver-dollar-eucalyptus-gray-background_53876-102414.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1714176000&semt=ais');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            font-family: Nunito;
+        }
+        .navbar {
+            background-color: whitesmoke; 
+        }
+        .navbar-nav .nav-link {
+            letter-spacing: 2px;
+            font-family: Nunito;
+        }
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+      
+        .btn-outline-success {
+            color: black; 
+            background-color: darkgray; 
+            border-color: darkgray;
+        }
+       
+        .btn-outline-success:hover {
+            color: whitesmoke; 
+            background-color: black; 
+            border-color: black; 
+        }
+        .container {
+            font-size: 50px;
+        }
+        .navbar-brand {
+            margin-left: 15px; /* Added margin to the left */
+        }
+        .btn-outline-success:hover {
+            color: black; 
+            background-color: darkgray; /* Reverted hover effect to match button style */
+            border-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+            <img src="https://i.pinimg.com/originals/84/72/67/847267eaa1d18ee2418f010a1155eeb8.png" class="navbar-brand" width="55">
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a id="login-btn" class="nav-link" href="index.html?">Back</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page2.html">1st Quarter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page3.html">2nd Quarter</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 align="center">MY ONLINE PORTFOLIO</h1>
+    </div>
+
+    <script>
+        document.getElementById("login-btn").addEventListener("click", function() {
+            window.alert("Back to Log-In page");
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

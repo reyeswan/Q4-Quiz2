@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Photo Gallery Philippines</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url(https://i.natgeofe.com/n/04505c35-858b-4e95-a1a7-d72e5418b7fc/steep-karst-cliffs-of-el-nido-in-palawan.jpg?w=1534&h=768);
+            background-attachment: fixed;
+        }
+
+        .header {
+            background: rgb(8,222,180);
+            background: linear-gradient(90deg, rgba(8,222,180,1) 0%, rgba(14,52,200,1) 50%, rgba(8,222,180,1) 100%);
+            text-align: center;
+            padding:10px;
+            opacity: 1;
+        }
+
+        .section {
+            display:inline-flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap:10px;
+            gap:10px;
+        }
+
+        .Places {
+                background-color: lightgray;
+                border:3px solid black;
+                width:400px;
+                padding:10px;
+        }
+
+        .img {
+            width:400px;
+            height: 260px;
+        }
+
+        .description{
+            background-color:#414345 ;
+            border:solid;
+         
+        }
+
+        
+
+    </style>
+</head>
+<body>
+ 
+<div class="header">
+    <center><h1>Most Visited Places In The Philippines</h1></center>
+</div>
+     
+     <h1 align="center"> Photo Gallery </h1>
+
+<div class="description">
+     <center><p>The Philippines is an archipelago consisting of 7,100 islands with a total land area of approximately 300,000 square kilometers. It has three major island groups-Luzon in the north, Visayas in the middle and Mindanao further down in the South. The current population of the Philippines is about 80 million people.</p></center>
+ </div>
+
+
+<div class="section">
+    <div class="Places">
+        <center><h3> TagayTay </h3></center>
+        <center><p> City of Tagaytay is a component city in the province of Cavite, in the Philippines. It is one of the country's most popular tourist destinations because of its outstanding scenery and cooler climate provided by its high altitude. Tagaytay overlooks Taal Lake in Batangas and provides one of the iconic views of the Philippines, the view of Taal Volcano Island in the middle of the lake, viewable from several vantage points in the city. 
+</p></center>
+    </div>
+
+    <div class="Places">
+        <center><img class="img" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/e7/b0/ea/photo0jpg.jpg?w=700&h=500&s=1"></center>
+    </div>
+
+    <div class="Places">
+        <center><h3> Baguio </h3></center>
+        <center><p>Baguio, perched high in the Cordillera Central Mountains, is a great place to escape the heat of the Philippine lowlands. Camp John Hay, originally built as a recreation area for U.S. soldiers, now is a full-fledged resort complete with a world-class golf course. Definitely stop at the city market, where you can buy almost anything (just be prepared to haggle). </p></center>
+    </div>
+
+    <div class="Places">
+        <center><img class="img" src="https://res.klook.com/image/upload/fl_lossy.progressive,w_800,c_fill,q_85/Tags1-1125x624_ymzl37.png"></center>
+    </div>
+
+    <div class="Places">
+        <center><h3> Palawan</h3></center>
+        <center><p> Palawan Island Philippines is the largest island. The island is half desert, so still undeveloped. You can enjoy the jungle, mountains, and white beaches. Palawan Island has been rated by National Geographic Traveler magazine as best Southeast Asia region in 2007, and the 13th best island in the world! Isthe most biodiverse islands in the Philippines. Palawan is an archipelago with 1,780 islands on the western part. Due to amazing  landscapes and high bio-diversity, Palawan island is known as “The Last Ecological Frontier of the Philippines”.</p></center>
+    </div>
+
+    <div class="Places">
+        <center><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Baguio_skyline_2023-02-25.jpg"></center>
+    </div>
+
+    <div style="text-align: center;">
+        <button style="background-color: darkgray; color: white; padding: 15px 30px; border: none; cursor: pointer; font-family: Aldrich, sans-serif; font-size: 20px;" onclick="returnToMainPage()">Return to Main Page</button>
+    </div>
+
+    <script>
+        function returnToMainPage() {
+            window.location.href = 'mainpage.html';
+            alert('Back to main page');
+        }
+    </script>
+
+</div>
+</body>
+</html>
